@@ -1,0 +1,28 @@
+{
+	"didDocumentMetadata": {
+		"versionId": "1",
+		"update": "2022-08-10T18:14:29Z",
+		"deactived": false,
+		"data": "Questo DID appartie al Comune di XYZ"
+	}
+    "@context": ["https://w3id.org/did/v1.0"],
+    "id": "did:notex725:tx1:rjv6-eczq-q8v9-4fq",
+	"controller": "did:notex725:tx1:rjv6-eczq-q8v9-4fq",
+    "verificationMethod": [],  
+	"verifiableCredentialAttributes": [],
+	"assertionMethod": [],
+    "service":	[
+		{
+			"id": "did:notex725:y52q-qqpq-qpqq-4lkz",
+			"type": "LinkedDomains",
+			"serviceEndpoint": "https://notex725.resolution.com"
+		}
+	],
+}
+
+
+
+
+
+
+

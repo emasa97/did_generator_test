@@ -1,0 +1,54 @@
+{
+    "@context": ["https://w3id.org/did/v1.0"],
+    "id": "did:notex725:tx1:rkwm-ecpq-qukj-74w",
+	"controller": "did:notex725:tx1:rjv6-eczq-q8v9-4fq",
+    "verificationMethod": [
+       {
+            "id": "did:notex725:tx1:rkwm-ecpq-qukj-74w",
+            "controller": "did:notex725:tx1:rjv6-eczq-q8v9-4fq",
+            "type": "EcdsaSecp256k1VerificationKey2019",
+            "publicKey": "owh12LKNuphe97te.....ewSVTwjHcskPbq34epCY"
+        },
+        {
+             "id": "did:notex725:tx1:rkwm-ecpq-qukj-74w",
+             "controller": "did:notex725:tx1:rkwm-ecpq-qukj-74w#delegate",
+             "type": "EcdsaSecp256k1VerificationKey2019",
+             "publicKey": "G3nxoRKuGy34r.......58SLbAiEknzQB6IuI2g2"
+         }
+    ],  
+	"verifiableCredentialAttributes": [
+       {
+            "id": "0",
+            "data": "5MwEM7Q6JQMJvtmsVWY70A==",
+            "type": "AES256CBC",
+            
+        },
+        {
+             "id": "1",
+             "data": "wpFCnjH64IhXI8+68SFvAcBjy8gk7jrro0ovKzHiN4o=",
+             "type": "AES256CBC",
+             
+         }
+		 {
+             "id": "2"
+             "data": "iR3sfqNBLcUqvAv/krNyrw==",
+             "type": "AES256CBC",
+             
+         }
+    ],
+	"assertionMethod": [],
+    "service":	[
+		{
+			"id": "did:notex725:y52q-qqpq-qpqq-4lkz",
+			"type": "LinkedDomains",
+			"serviceEndpoint": "https://notex725.resolution.com"
+		}
+	],
+	"verificationMethod": [
+       {
+            "id": "did:notex725:tx1:rkwm-ecpq-qukj-74w",
+            "controller": "did:notex725:tx1:rjv6-eczq-q8v9-4fq",
+            "type": "EcdsaSecp256k1VerificationKey2019",
+            "publicKey": "owh12LKNuphe97te.....ewSVTwjHcskPbq34epCY"
+		}]
+}
